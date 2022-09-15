@@ -6,7 +6,7 @@
 
 ```go
 import(
-    _ "github.com/weisd/broker-youzan-nsq"
+    _ "github.com/kt-micro/broker-youzan-nsq"
 )
 ```
 
