@@ -286,7 +286,7 @@ func (s *subscriber) Unsubscribe() error {
 func NewBroker(opts ...broker.Option) broker.Broker {
 	options := broker.Options{
 		// Default codec
-		Codec: json.NewCodec(),
+		Codec: json.Marshaler{},
 		// Default context
 		Context: context.Background(),
 	}
